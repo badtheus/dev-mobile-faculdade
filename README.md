@@ -1,8 +1,8 @@
 # 📱 Desenvolvimento Mobile – Projetos da Faculdade
 
-Este repositório reúne todos os projetos desenvolvidos ao longo da disciplina de **Desenvolvimento Mobile**, no curso de **Sistemas de Informação**. Os projetos foram construídos utilizando **Kotlin**, **Jetpack Compose**, e outras tecnologias do ecossistema Android.
+Este repositório reúne os projetos desenvolvidos durante a disciplina de **Desenvolvimento Mobile**, no curso de **Sistemas de Informação**. Todos os projetos foram desenvolvidos com **Kotlin** e **Jetpack Compose**, utilizando boas práticas de UI/UX, arquitetura e lógica de programação.
 
-> ✅ Cada projeto possui seu próprio repositório com código-fonte e README explicativo.
+> ✅ Cada projeto possui seu próprio repositório com código-fonte, prints, e (se disponível) vídeo demonstrativo.
 
 ---
 
@@ -10,12 +10,11 @@ Este repositório reúne todos os projetos desenvolvidos ao longo da disciplina 
 
 | Projeto | Descrição | Link |
 |--------|-----------|------|
-| 🧘 **App de Hábitos** | Aplicativo para acompanhamento de hábitos com múltiplos calendários e relatórios. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO1) |
-| 🛒 **Lista de Compras** | Um app simples para gerenciar itens de compra, com persistência local. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO2) |
-| 🎵 **Tocador de Música** | Protótipo de player de música com Jetpack Compose e MediaPlayer. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO3) |
-| 🌤️ **App de Clima** | Consulta a previsão do tempo usando API pública e exibe de forma intuitiva. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO4) |
-| 📅 **Agenda de Contatos** | Um app para cadastrar e listar contatos, usando Room para persistência. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO5) |
-| 📅 **Agenda de Contatos** | Um app para cadastrar e listar contatos, usando Room para persistência. | [Ver Repositório](https://github.com/SEU_USUARIO/NOME_DO_REPO5) |
+| 🧮 **Calculadora** | Um app simples de calculadora com operações básicas e interface intuitiva. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Calculadora) |
+| ⚖️ **Calculadora de IMC** | Aplicativo que calcula o Índice de Massa Corporal com base no peso e altura informados. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-CalculadoraDeIMC) |
+| 📆 **App de Hábito** | Aplicativo para rastreamento de hábitos, com múltiplos calendários e relatórios visuais. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Habito) |
+| 🎮 **Mini Jogos** | Protótipos de mini games com lógica simples para fins de prática e experimentação. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Minijogosteste) |
+| 🎲 **App de Sorteio** | App que realiza sorteios de números, nomes ou opções personalizadas. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Sorteio) |
 
 ---
 
@@ -24,14 +23,23 @@ Este repositório reúne todos os projetos desenvolvidos ao longo da disciplina 
 - Kotlin
 - Android Studio
 - Jetpack Compose
-- Room
-- ViewModel & LiveData
 - Material Design 3
+- ViewModel & LiveData
+- Room (quando aplicável)
+- Retrofit / Ktor (quando aplicável)
 
 ---
 
 ## 🎓 Sobre a Matéria
 
 A disciplina tem como objetivo introduzir o desenvolvimento de aplicativos móveis nativos Android, com foco em boas práticas de UI, arquitetura e consumo de dados.
+
+---
+
+## ✍️ Autor
+
+**Matheus Lima**  
+📧 [seuemail@email.com](mailto:seuemail@email.com)  
+📱 [linkedin.com/in/seulinkedin](https://linkedin.com/in/seulinkedin)  
 
 ---
