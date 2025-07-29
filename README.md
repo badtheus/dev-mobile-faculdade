@@ -12,7 +12,7 @@ Este repositório reúne os projetos desenvolvidos durante a disciplina de **Des
 | ⚖️ **Calculadora de IMC** | Aplicativo que calcula o Índice de Massa Corporal com base no peso e altura informados. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-CalculadoraDeIMC) |
 | 📆 **App de Hábito** | Aplicativo para rastreamento de hábitos, com múltiplos calendários e relatórios visuais. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Habito) |
 | 🎮 **Mini Jogos** | Protótipos de mini games com lógica simples para fins de prática e experimentação. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Minijogosteste) |
-| 🎲 **App de Sorteio** | App que realiza sorteios de números, nomes ou opções personalizadas. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Sorteio) |
+| 🎲 **App de Sorteio** | App que realiza sorteios de números. | [Ver Repositório](https://github.com/badtheus/dev-mobile-faculdade/tree/main/app-Sorteio) |
 
 ---
 
