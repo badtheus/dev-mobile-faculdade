@@ -2,8 +2,6 @@
 
 Este repositório reúne os projetos desenvolvidos durante a disciplina de **Desenvolvimento Mobile**, no curso de **Sistemas de Informação**. Todos os projetos foram desenvolvidos com **Kotlin** e **Jetpack Compose**, utilizando boas práticas de UI/UX, arquitetura e lógica de programação.
 
-> ✅ Cada projeto possui seu próprio repositório com código-fonte, prints, e (se disponível) vídeo demonstrativo.
-
 ---
 
 ## 📂 Lista de Projetos
@@ -39,7 +37,4 @@ A disciplina tem como objetivo introduzir o desenvolvimento de aplicativos móve
 ## ✍️ Autor
 
 **Matheus Lima**  
-📧 [seuemail@email.com](mailto:seuemail@email.com)  
-📱 [linkedin.com/in/seulinkedin](https://linkedin.com/in/seulinkedin)  
-
 ---
