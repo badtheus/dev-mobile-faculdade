@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e9c83"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:width="200dp"
+        android:background="#000000"
+        android:contentDescription="Somatório"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="400dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttoncancelentry"
+                android:text="CE"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button20"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttoncancel"
+                android:text="C"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button21"
+                style="@style/CalcButtonOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttondivisao"
+                android:text="/"
+                app:cornerRadius="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <Button
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button7"
+                android:text="7"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button8"
+                android:text="8"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button9"
+                android:text="9"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/CalcButtonOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttonmultiplicacao"
+                android:text="*"
+                app:cornerRadius="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button4"
+                android:text="4"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button5"
+                android:text="5"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button6"
+                android:text="6"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/CalcButtonOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttonsubtracao"
+                android:text="-"
+                app:cornerRadius="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button1"
+                android:text="1"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button2"
+                android:text="2"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button3"
+                android:text="3"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/CalcButtonOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttonsoma"
+                android:text="+"
+                app:cornerRadius="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button22"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttoncancelentry"
+                android:text="del"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button23"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button0"
+                android:text="0"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button24"
+                style="@style/CalcButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button25"
+                style="@style/CalcButtonEquals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="buttonresult"
+                android:text="="
+                app:cornerRadius="1dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
