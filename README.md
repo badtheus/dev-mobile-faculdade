@@ -1,6 +1,6 @@
 # 📱 Desenvolvimento Mobile – Projetos da Faculdade
 
-Este repositório reúne os projetos desenvolvidos durante a disciplina de **Desenvolvimento Mobile**, no curso de **Sistemas de Informação**. Todos os projetos foram desenvolvidos com **Kotlin** e **Jetpack Compose**, utilizando boas práticas de UI/UX, arquitetura e lógica de programação.
+Este repositório reúne os projetos desenvolvidos durante a disciplina de **Desenvolvimento Mobile**, do **Professor Claudio Damasceno**, no curso de **Sistemas de Informação**. Todos os projetos foram desenvolvidos com **Kotlin** e **Jetpack Compose**, utilizando boas práticas de UI/UX, arquitetura e lógica de programação.
 
 ---
 
